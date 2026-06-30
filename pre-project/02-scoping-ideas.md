@@ -2,14 +2,14 @@
 
 **Date:** 2026-06-30
 **Author:** dev-p
-**Project slug:** mb5bdlf
+**Project slug:** mb5pdlf
 **Purpose:** Raw ideation and scoping notes. Deliberately messy — this is brainstorming, not a spec.
 
 ---
 
 ## Feature ideas (no filter yet)
 
-These are things that crossed my mind. Some are good. Some are fat. The point of writing them all down is to let bdlf stage 5 (Distillation) cut them.
+These are things that crossed my mind. Some are good. Some are fat. The point of writing them all down is to let pdlf stage 5 (Distillation) cut them.
 
 1. **Three intentions per day** — fixed number, not adjustable. Forces prioritisation.
 2. **Morning entry + evening review** — two-pass structure. Set in the morning, mark in the evening.
@@ -64,7 +64,7 @@ If the user navigates to the root URL, redirect to "Today." I don't need a home 
 
 ## What I think the tech is
 
-- **Anvil.works** — already set up (the mb5bdlf Anvil app exists)
+- **Anvil.works** — already set up (the mb5pdlf Anvil app exists)
 - **Anvil Data Tables** — one table as above
 - **Anvil server-side Python** — the lock-after-midnight logic, the "is it morning or evening" logic
 - **Material Design 3** — Anvil's MD3 theme, minimal customisation
@@ -84,8 +84,8 @@ No external APIs. No authentication for v1. No database migrations. One table, t
 - The app takes more than 90 seconds to use in the morning or evening.
 - I add features during the build that weren't in the distillation.
 - The data model needs to be rewritten when I add a second user.
-- The bdlf process felt like paperwork instead of thinking.
+- The pdlf process felt like paperwork instead of thinking.
 
 ---
 
-*This is a scoping ideas document. Everything here is provisional and will be filtered during bdlf stages 1–5. The presence of an idea here does not mean it will be in v1.*
+*This is a scoping ideas document. Everything here is provisional and will be filtered during pdlf stages 1–5. The presence of an idea here does not mean it will be in v1.*

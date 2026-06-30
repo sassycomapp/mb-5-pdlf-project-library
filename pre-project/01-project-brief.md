@@ -2,8 +2,8 @@
 
 **Date:** 2026-06-30
 **Author:** dev-p
-**Project slug:** mb5bdlf
-**Purpose:** First-thoughts document to feed into bdlf stage 1 (Ideation). This is raw thinking, not a spec.
+**Project slug:** mb5pdlf
+**Purpose:** First-thoughts document to feed into pdlf stage 1 (Ideation). This is raw thinking, not a spec.
 
 ---
 
@@ -35,14 +35,14 @@ I don't think I need a settings screen for v1. Maybe later.
 
 ## What I want from this test
 
-This project is primarily a test of the bdlf workflow itself. I want to see:
+This project is primarily a test of the pdlf workflow itself. I want to see:
 - Whether the 17-stage pipeline feels natural or forced for a small project
 - Whether the BFT checkpoints add value or just add overhead
 - Whether the ISA is a useful artifact or just paperwork
 - Whether the single-step "continue" cadence keeps me engaged or slows me down
 - Whether the LEARN junction at the end actually makes the next project easier
 
-If bdlf adds 30% overhead but the resulting code is cleaner and I learned something for the next project, that's a win. If it adds 30% overhead and I learned nothing, the test failed.
+If pdlf adds 30% overhead but the resulting code is cleaner and I learned something for the next project, that's a win. If it adds 30% overhead and I learned nothing, the test failed.
 
 ## Rough timeline
 
@@ -50,4 +50,4 @@ I want this to be fast. Not a week, not a month. If I can't get to a deployable 
 
 ---
 
-*This is a first-thoughts document. Everything here is provisional and will be refined or discarded during bdlf stages 1–5 (Ideation → Distillation).*
+*This is a first-thoughts document. Everything here is provisional and will be refined or discarded during pdlf stages 1–5 (Ideation → Distillation).*
