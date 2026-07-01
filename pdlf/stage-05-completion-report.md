@@ -94,4 +94,8 @@ Ran full BFT health scan (not abbreviated checkpoint):
 Stage 6 (Project Framing) — convert the distilled concept into operational form: goals, user flows, workflows, scope, outcomes. Output: Project Concept Document (PCD). This begins Phase B (Define).
 
 ## 10. Maintenance performed
-**Gate maintenance run** per SKILL.md section 6.4. See maintenance log below.
+**Gate maintenance run** per SKILL.md section 6.4. Results:
+- Git commit: `7ef0105` — "pdlf stage 5: concept distilled (gate: stage-5-distilled passed, Phase A complete)"
+- Git push: 13 files pushed to `sassycomapp/project-library-mb5pdlf.git` (master)
+- GBrain sync: 13 pages added, 43 chunks created, 13 pages embedded. mb5pdlf source now 18 pages.
+- GBrain embed: 0 stale (all embedded during sync)

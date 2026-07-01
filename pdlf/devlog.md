@@ -166,3 +166,101 @@
 - State file updated: stage 4, substep "definition-complete"
 **Next action:** Stage 5 (Concept Distillation) — remove fluff, assumptions, duplication; keep only truth, constraints, relevance. First gate follows.
 **Gate status:** stage 4 complete (no gate — next gate is stage 5)
+
+---
+
+### Entry 7 — 2026-06-30 18:45 — Stage 5 (Concept Distillation) + GATE
+
+**Action:** Distilled stages 1-4 into a 9-section minimal concept document. Applied BFT three-question fat test. Ran full BFT health scan for gate.
+**Result:** completed — **GATE PASSED (stage-5-distilled)**. Phase A (Discover) complete.
+
+**Distillation:**
+- 7 categories of material cut (rejected ideas, raw feature ideas, scenarios, temporal options, table trade-off, best-practice details, first-principles reasoning)
+- Distilled document is ~60% shorter than combined stages 1-4
+- 9 sections: principle, what the app is, 12 concept decisions, 8 platform constraints, data model, screen model, cross-project advisory, 5 deferred questions, fat removal record
+
+**Gate health scan:**
+- Bones: clear structure, no missing/extra bones
+- Muscle: all decisions trace to essential working principle
+- Nerves: connections clear, deferred questions correctly assigned
+- Fat: 7 categories removed, no residual fat
+- Skin: standalone-readable reference document
+- Health: GOOD — concept ready for Phase B
+
+**Maintenance performed (gate):**
+- Git commit 7ef0105: "pdlf stage 5: concept distilled (gate: stage-5-distilled passed, Phase A complete)"
+- Git push: 13 files to sassycomapp/project-library-mb5pdlf.git
+- GBrain sync: 13 pages added, 43 chunks, 13 pages embedded. mb5pdlf source now 18 pages.
+- GBrain embed: 0 stale
+
+**BFT checkpoint:** See gate health scan above.
+
+**Artifacts produced:**
+- `pdlf/stage-05-distilled-concept-document.md` (9-section distilled concept + gate verdict)
+- `pdlf/stage-05-completion-report.md` (stage completion report with maintenance log)
+- State file updated: stage 5, last_gate "stage-5-distilled", phase B
+- Git: commit 7ef0105 pushed
+- GBrain: 18 pages indexed
+**Next action:** Stage 6 (Project Framing) — convert concept into operational form: goals, user flows, workflows, scope, outcomes. Output: PCD. Begin Phase B (Define).
+**Gate status:** **GATE PASSED: stage-5-distilled. Phase A complete.**
+
+---
+
+### Entry 8 — 2026-06-30 19:00 — Stage 6 (Project Framing)
+
+**Action:** Converted distilled concept into a Project Concept Document (PCD). Designed 5 user flows, 5 server workflows (pseudocode), scope, success criteria, and ISC candidates.
+**Result:** completed — PCD produced
+
+**Key outputs:**
+- 5 user flows: morning (set intentions, irrevocable), evening (review, save), locked (read-only), history (scrollable), first-time (= morning)
+- 5 server workflows (pseudocode): get_today_state, set_intentions, save_review, check_and_lock_past_days, get_history
+- Scope: 12 in-scope, 13 out-of-scope, 5 future
+- 7 success criteria with verification methods
+- 6 ISC candidates for stage 12 ISA
+- Open question #4 (first-time-at-3pm) confirmed resolved
+
+**BFT checkpoint:**
+- Bones: big bones = 5 user flows, 5 server workflows, scope, success criteria. Key-type = state-based detection.
+- Muscle: purpose (9 sub-objectives) + information (distilled concept) + logic (flows from concept decisions).
+- Nerves: Achieving network (purpose → sub-objectives → means → detail).
+- Fat: server pseudocode is muscle (clarifies logic). Cut: API design, deployment details, test strategy.
+- Skin: 6-section PCD. Tree structure: goals → flows → workflows → scope → outcomes.
+- Health: good — operational, specific, testable. ISC candidates ready for stage 12.
+
+**Artifacts produced:**
+- `pdlf/stage-06-project-concept-document.md` (PCD)
+- `pdlf/stage-06-completion-report.md` (stage completion report)
+- State file updated: stage 6, substep "framing-complete"
+**Next action:** Stage 7 (Platform & Framework Selection) — define execution environment and foundational stack
+**Gate status:** no gate (next gate at stage 12)
+
+---
+
+### Entry 9 — 2026-06-30 19:15 — Stage 7 (Platform & Framework Selection)
+
+**Action:** Confirmed and documented the technology and delivery stack. Verified M3 theme dependency installed in anvil.yaml (read-only). Applied ADR-001 advisory for second time.
+**Result:** completed — stack documented
+
+**Key decisions:**
+- Platform: Anvil.works (runtime v3, python310-minimal) — confirmed
+- UI: Material Design 3 (4UK6WHQ6UX7AKELK, v1.2.6) — installed and verified
+- Data: Anvil Data Tables (1 table, built-in, no migration tool)
+- No routing dependency (2 screens, startup redirect)
+- No Anvil Extras (adopted from mb-3-cs ADR-014 via ADR-001)
+- No external APIs, no auth, no external Python packages
+- 7 M3 native components required — simplest possible M3 app
+
+**BFT checkpoint:**
+- Bones: big bones = Anvil, M3, Data Tables, GitHub, OpenCode/GStack/Matt/GBrain. Key-type = M3 theme.
+- Muscle: channel (welcomed existing platform) + information (mb-3-cs advisory, ADR-001 applied).
+- Nerves: Analyzing (classification into layers).
+- Fat: minimal stack — 1 platform, 1 dependency, 1 data layer. No fat.
+- Skin: 7-section stack document. Tree structure. Reference for stages 8-16.
+- Health: good — complete, minimal, confirmed.
+
+**Artifacts produced:**
+- `pdlf/stage-07-technology-delivery-stack.md` (7-section stack document)
+- `pdlf/stage-07-completion-report.md` (stage completion report)
+- State file updated: stage 7, substep "platform-selected"
+**Next action:** Stage 8 (Architecture & Standards) — define architecture, resolve 3 open questions, maintenance at end
+**Gate status:** no gate (next gate at stage 12)
