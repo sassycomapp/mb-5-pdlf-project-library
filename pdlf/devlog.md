@@ -332,3 +332,71 @@
 - State file updated: stage 9, substep "prd-complete"
 **Next action:** Stage 10 (Data Design) — design final Anvil Data Tables schema
 **Gate status:** no gate (next gate at stage 12)
+
+---
+
+### Entry 12 — 2026-06-30 19:45 — Stage 10 (Data Design)
+
+**Action:** Designed the definitive Anvil Data Tables schema. Applied ADR-001 advisory for fourth time.
+**Result:** completed — data model produced
+
+**Key outputs:**
+- `intentions` table: 12 columns (date, intention_1/2/3, done_1/2/3, reflection, locked, user_id, created_at, updated_at)
+- Client access: None (server-side only) — adopted from mb-3-cs advisory
+- Row ID: Anvil built-in (no custom auto-increment) — adopted from mb-3-cs advisory
+- `instance_id` pattern: NOT adopted (deliberate deviation — mb5pdlf is single-user, `user_id` used instead)
+- 6 validation rules (non-empty intentions, max 500 chars, bool done states, optional reflection, locked check, duplicate check)
+- Security model: client no access, server full access, lock irreversible, irrevocability via date uniqueness
+- 3 query patterns (get-by-date, list-all-descending, find-unlocked-past)
+- No migration tool needed (table created fresh at stage 14, `user_id` included at creation)
+
+**Maintenance performed (stage 10 — docs repo only, per SKILL.md 6.4):**
+- Git commit 06120c4: 6 files pushed
+- GBrain sync: 4 added, 27 chunks, 6 pages embedded. mb5pdlf source now 30 pages.
+- Code repo: NOT pushed (no code changes)
+
+**BFT checkpoint:**
+- Bones: `intentions` table (12 columns). Key-type = `date` unique constraint.
+- Muscle: logic (column types from concept) + information (mb-3-cs advisory, ADR-001 4th use) + value (naming) + channel (Anvil Data Tables).
+- Nerves: Analyzing (column decomposition).
+- Fat: none — `user_id` is a constraint, not fat. Deviation note is muscle.
+- Skin: 7-section data model. Tree structure. Reference for stages 14-15.
+- Health: good — complete, correct, constrained. Lock and irrevocability at data level.
+
+**Artifacts produced:**
+- `pdlf/stage-10-data-model.md` (7-section data model)
+- `pdlf/stage-10-completion-report.md` (stage completion report with maintenance log)
+- State file updated: stage 10, substep "data-designed"
+- Git: commit 06120c4 pushed, GBrain: 30 pages indexed
+**Next action:** Stage 11 (Design Sanity Audit) — validate consistency, feasibility, simplicity, fit-for-purpose
+**Gate status:** no gate (next gate at stage 12)
+
+---
+
+### Entry 13 — 2026-06-30 20:00 — Stage 11 (Design Sanity Audit)
+
+**Action:** Audited all prior stage outputs (stages 5-10) across 6 dimensions: consistency, feasibility, simplicity, fit-for-purpose, constraint validation, technical feasibility.
+**Result:** completed — **ALL 6 DIMENSIONS PASSED**
+
+**Audit results:**
+- Consistency: PASS (10 cross-stage checks, no contradictions)
+- Feasibility: PASS (11 checks, all achievable on Anvil + M3)
+- Simplicity: PASS (9 checks, no accidental complexity)
+- Fit-for-purpose: PASS (5 checks, every element serves essential working principle)
+- Constraint validation: PASS (10 constraints, all respected)
+- Technical feasibility: PASS (8 risk checks, no blockers, 3 mitigated, 3 accepted, 2 deferred)
+
+**BFT checkpoint:**
+- Bones: all prior stage outputs (5-10). Key-type = traceability concept → data model.
+- Muscle: logic (6-dimensional audit, objective PASS/WARN/FAIL). Information (all stage outputs).
+- Nerves: Analyzing (classification against 6 dimensions).
+- Fat: none found — all elements serve the essential working principle.
+- Skin: 7-section audit report. Table format. Overall verdict up-front.
+- Health: GOOD — comprehensive, objective, honest. Design ready for lockdown.
+
+**Artifacts produced:**
+- `pdlf/stage-11-design-sanity-audit.md` (7-section audit)
+- `pdlf/stage-11-completion-report.md` (stage completion report)
+- State file updated: stage 11, substep "audit-passed"
+**Next action:** Stage 12 (Design Lockdown) — publish ISA, freeze baseline v1, GATE (stage-12-locked) with full BFT health scan + maintenance
+**Gate status:** no gate (next gate at stage 12 — audit PASSED, no blockers)
