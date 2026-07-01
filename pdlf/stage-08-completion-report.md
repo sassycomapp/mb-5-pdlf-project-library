@@ -114,4 +114,8 @@ No gate — next gate at stage 12 (stage-12-locked).
 Stage 9 (Product Planning) — develop PRD and supporting planning documents. The architecture spec feeds the PRD's technical sections. ISC candidates from stage 6 will be refined into formal ISCs.
 
 ## 11. Maintenance performed
-**Stage 8 maintenance run** per SKILL.md section 6.4 ("End of stage 8 — architecture decisions committed — full maintenance"). See below.
+**Stage 8 maintenance run** per SKILL.md section 6.4 ("End of stage 8 — architecture decisions committed — full maintenance"). Results:
+- Git commit: `4270800` — "pdlf stage 8: architecture spec + ADR-002 (pure logic) + ADR-003 (lock enforcement)"
+- Git push: 10 files (6 stage outputs + 2 ADRs + 2 modified) to `sassycomapp/project-library-mb5pdlf.git`
+- GBrain sync: 8 added, 2 modified, 36 chunks created, 10 pages embedded. mb5pdlf source now 26 pages.
+- GBrain embed: 0 stale

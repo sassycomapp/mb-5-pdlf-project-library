@@ -264,3 +264,71 @@
 - State file updated: stage 7, substep "platform-selected"
 **Next action:** Stage 8 (Architecture & Standards) — define architecture, resolve 3 open questions, maintenance at end
 **Gate status:** no gate (next gate at stage 12)
+
+---
+
+### Entry 10 — 2026-06-30 19:15 — Stage 8 (Architecture & Standards)
+
+**Action:** Designed module architecture (5 client forms, 3 server modules), resolved 3 open questions, created ADR-002 and ADR-003. Applied ADR-001 advisory for third time.
+**Result:** completed — architecture spec produced
+
+**Key decisions:**
+- Pure logic modules adopted (ADR-002): `date_logic.py` + `record_ops.py` (no Anvil imports, unit-testable)
+- Hybrid lock enforcement (ADR-003): client-side date detection + server-side lock enforcement
+- Startup redirect confirmed (no routing dependency)
+- 5 client forms: Form1 (startup), MorningForm, EveningForm, LockedForm, HistoryForm
+- 3 server modules: server_calls.py (impure shell), date_logic.py + record_ops.py (pure logic)
+- 4 server callables with response envelope
+- Coding standards adopted from mb-3-cs (Anvil-first, response envelope, docstrings, type hints)
+
+**Maintenance performed (stage 8 — per SKILL.md 6.4):**
+- Git commit 4270800: 10 files pushed (6 stage outputs + 2 ADRs + 2 modified)
+- GBrain sync: 8 added, 36 chunks, 10 pages embedded. mb5pdlf source now 26 pages.
+
+**BFT checkpoint:**
+- Bones: 5 forms, 3 server modules, 4 callables, 6 pure logic functions, data flow, coding standards. Key-type = pure logic module pattern.
+- Muscle: logic (architecture from concept) + value (coding standards) + channel (mb-3-cs patterns via ADR-001).
+- Nerves: Analyzing (module decomposition) + Achieving (data flow).
+- Fat: minimal — specified, not over-specified.
+- Skin: 8-section spec. Tree structure. Reference for stages 10-16.
+- Health: good — complete, testable, sound, right scope.
+
+**Artifacts produced:**
+- `pdlf/stage-08-architecture-specification.md` (8-section architecture spec)
+- `pdlf/stage-08-completion-report.md` (stage completion report with maintenance log)
+- `adr/002-pure-logic-module-architecture.md` (ADR)
+- `adr/003-lock-enforcement-strategy.md` (ADR)
+- State file updated: stage 8, substep "architecture-defined"
+- Git: commit 4270800 pushed, GBrain: 26 pages indexed
+**Next action:** Stage 9 (Product Planning) — PRD with ISCs, functional specs, user stories, acceptance criteria, traceability
+**Gate status:** no gate (next gate at stage 12)
+
+---
+
+### Entry 11 — 2026-06-30 19:30 — Stage 9 (Product Planning)
+
+**Action:** Produced PRD with 6 ISCs, 6 functional specs, 5 user stories, 28 acceptance criteria, full traceability matrix, 6 NFRs.
+**Result:** completed — PRD produced
+
+**Key outputs:**
+- 6 ISCs refined from stage 6 candidates (each with verification method + verification stage)
+- 6 functional specs (FS-1 through FS-6): startup/state detection, morning set, evening review, locked display, history, lock enforcement
+- 5 user stories (US-1 through US-5) with 28 acceptance criteria
+- Traceability matrix: ISC → FS → US → AC → concept decision → architecture spec (no orphans)
+- 6 NFRs: performance, usability, mobile, security, reliability, maintainability
+- Re-review allowed before midnight (overwrites previous — consistent with stage 3)
+
+**BFT checkpoint:**
+- Bones: 6 ISCs, 6 FS, 5 US, 28 AC, traceability matrix. Key-type = traceability matrix.
+- Muscle: logic (decomposition) + information (PCD + architecture). No emotional/habit.
+- Nerves: Achieving network (ISC → US → AC → trace).
+- Fat: none — validation rules and error messages are constraints for stage 15.
+- Skin: 6-section PRD. Tree structure: ISC → FS → US → AC → trace.
+- Health: good — every ISC traces to concept + architecture. No orphans. Right scope.
+
+**Artifacts produced:**
+- `pdlf/stage-09-prd.md` (6-section PRD)
+- `pdlf/stage-09-completion-report.md` (stage completion report)
+- State file updated: stage 9, substep "prd-complete"
+**Next action:** Stage 10 (Data Design) — design final Anvil Data Tables schema
+**Gate status:** no gate (next gate at stage 12)
