@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "default_agent": "plan",
+  "permission": {
+    "edit": {
+      "**/anvil.yaml": "deny",
+      "*": "ask"
+    },
+    "webfetch": "ask",
+    "bash": {
+      "*": "ask"
+    },
+    "external_directory": {
+      "C:\\projects\\mb5pdlf\\mb5pdlf\\**": "allow"
+    }
+  }
+}
