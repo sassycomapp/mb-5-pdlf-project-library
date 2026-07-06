@@ -7,7 +7,7 @@
 
 ## Context
 
-The mb5pdlf project is an Anvil.works application using Material Design 3. The mb-3-cs project (`C:\_mb2-cs-app\project-library`) contains extensive proprietary knowledge about Anvil development practices, Material 3 theming, component specifications, coding standards, and architectural constraints — all acquired through months of active development.
+The mb5pdlf project is an Anvil.works application using Material Design 3. The mb-3-cs project (`C:\mybizz\project-library`) contains extensive proprietary knowledge about Anvil development practices, Material 3 theming, component specifications, coding standards, and architectural constraints — all acquired through months of active development.
 
 mb5pdlf is a test project on the same platform (Anvil + MD3). Re-deriving this knowledge from scratch would waste time and produce inconsistent results. The knowledge already exists and is directly applicable.
 
