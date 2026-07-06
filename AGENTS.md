@@ -120,3 +120,17 @@ development strategy. Type `/pdlf` in OpenCode to init or resume.
 - Keep answers concise, structured, and practical.
 - Distinguish clearly between facts from the repo, inferences, and proposed revisions.
 - Flag uncertainty, contradictions, or missing provenance explicitly.
+
+## Agent skills
+
+### Issue tracker
+
+Local markdown — issues live as files under `.scratch/<feature>/` in this repo. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Five canonical labels: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix` (defaults). See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context — `CONTEXT.md` at repo root + `adr/` for architectural decisions. Two-repo architecture: this repo holds planning/docs, `mb5pdlf` holds app code (Daily Intentions Tracker). PDLF test project. See `docs/agents/domain.md`.
