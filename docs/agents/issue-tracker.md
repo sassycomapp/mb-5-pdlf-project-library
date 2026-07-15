@@ -1,6 +1,6 @@
 # Issue tracker: Local markdown
 
-Issues and PRDs for this repo live as markdown files under `.scratch/`. This is a PDLF test project — PDLF's `/to-issues` step (`to-issues` skill) uses this tracker.
+Issues and specs for this repo live as markdown files under `.scratch/`. This is a PDLF test project — PDLF's `/to-tickets` step (`to-tickets` skill) uses this tracker.
 
 ## Conventions
 

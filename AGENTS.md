@@ -90,6 +90,17 @@ File type overrides: docs → `docs/`, ADRs → `adr/`, wireframes → `wirefram
 
 ---
 
+## Matt Pocock skills artifact governance
+
+- `domain-modeling`, `grill-with-docs` → `CONTEXT.md` + `adr/`.
+- `to-tickets`, `triage` → `.scratch/`.
+- `setup-matt-pocock-skills` → `docs/agents/` + `AGENTS.md`.
+- `handoff`, `improve-codebase-architecture` → `%TEMP%` + `matt-skills-output/`.
+- `teach` → `C:\mybizz\matt-skills-teach`.
+- Others → ask the user.
+
+---
+
 ## pdlf workflow
 
 Managed using pdlf. Type `/pdlf` to init or resume.
@@ -120,3 +131,19 @@ Managed using pdlf. Type `/pdlf` to init or resume.
 - `devlog-index.md` — report index.
 - `judgement-trail.md` — decisions per task.
 - Scaffold exception: create headers if missing.
+
+---
+
+## Agent skills
+
+### Issue tracker
+
+GitHub Issues. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Default labels: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context. See `docs/agents/domain.md`.
