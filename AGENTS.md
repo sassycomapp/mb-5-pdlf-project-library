@@ -70,9 +70,9 @@ Read `README.md` before every task.
 | `wireframes/` | HTML wireframes and mockups |
 | `screens/` | Screen HTML mockups |
 | `wip/` | Active work-in-progress |
-| `gstack-outputs/` | GStack-produced reports |
-| `opencode-outputs/` | OpenCode-produced reports |
-| `matt-skills-output/` | Matt Pocock skill outputs |
+| `output-gstack/` | GStack-produced reports |
+| `output-opencode/` | OpenCode-produced reports |
+| `output-matt-skills/` | Matt Pocock skill outputs |
 
 ---
 
@@ -82,9 +82,9 @@ Every artifact gets saved. Build actions only. Confirm save location.
 
 | Producer | Destination |
 |---|---|
-| GStack | `gstack-outputs/` |
-| OpenCode | `opencode-outputs/` |
-| Matt Pocock skills | `matt-skills-output/` |
+| GStack | `output-gstack/` |
+| OpenCode | `output-opencode/` |
+| Matt Pocock skills | `output-matt-skills/` |
 
 File type overrides: docs → `docs/`, ADRs → `adr/`, wireframes → `wireframes/`, screens → `screens/`, pdlf → `pdlf/`.
 
@@ -95,7 +95,7 @@ File type overrides: docs → `docs/`, ADRs → `adr/`, wireframes → `wirefram
 - `domain-modeling`, `grill-with-docs` → `CONTEXT.md` + `adr/`.
 - `to-tickets`, `triage` → `.scratch/`.
 - `setup-matt-pocock-skills` → `docs/agents/` + `AGENTS.md`.
-- `handoff`, `improve-codebase-architecture` → `%TEMP%` + `matt-skills-output/`.
+- `handoff`, `improve-codebase-architecture` → `%TEMP%` + `output-matt-skills/`.
 - `teach` → `C:\mybizz\matt-skills-teach`.
 - Others → ask the user.
 
