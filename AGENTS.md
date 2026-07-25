@@ -147,3 +147,15 @@ Default labels: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-huma
 ### Domain docs
 
 Single-context. See `docs/agents/domain.md`.
+
+---
+
+## Timestamp Standard
+
+Every date or timestamp this agent generates for a build artefact — front matter, register entries, alignment logs, learnings entries, backup folder names, devlog entries, or any other system-internal record — must follow the format and conversion method defined in:
+
+`C:\dev\project-library-global\adr-global\timezone-utc-storage-display-conversion.md`
+
+This ADR specifies one mandatory method for generating the timestamp, with no fallback and no alternative. Read that document before generating any such timestamp. If anything about the required method is unclear, stop and ask the developer — do not improvise or substitute a different method.
+
+This does not apply to client-facing data (bookings, invoices, activity logs, etc.), which follows the IANA-timezone-based rule in the same ADR's main Decision section, not this build-artefact standard.
