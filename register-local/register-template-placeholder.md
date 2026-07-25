@@ -1,7 +1,8 @@
 ---
 document: Register Template
-version: V1
-status: template
+doc-id: mb5pdlf-0013
+state: Live
+date-created: 2026-07-25T215540+0200
 ---
 
 # Register — {PROJECT-NAME or project-library-global}

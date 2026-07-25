@@ -1,3 +1,10 @@
+---
+document: Domain Docs
+doc-id: mb5pdlf-0007
+state: Live
+date-created: 2026-07-25T215540+0200
+---
+
 # Domain Docs
 
 How the engineering skills should consume this repo's domain documentation when exploring the codebase.

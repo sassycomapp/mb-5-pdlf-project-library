@@ -1,3 +1,10 @@
+---
+document: Issue tracker: Local markdown
+doc-id: mb5pdlf-0008
+state: Live
+date-created: 2026-07-25T215540+0200
+---
+
 # Issue tracker: Local markdown
 
 Issues and specs for this repo live as markdown files under `.scratch/`. This is a PDLF test project — PDLF's `/to-tickets` step (`to-tickets` skill) uses this tracker.

@@ -1,3 +1,10 @@
+---
+document: AGENTS.md — project-library [mb5pdlf]
+doc-id: mb5pdlf-0001
+state: Live
+date-created: 2026-07-25T215540+0200
+---
+
 # AGENTS.md — project-library [mb5pdlf]
 
 > Inherits Global `AGENTS.md` in full. This file adds project-specific rules only.

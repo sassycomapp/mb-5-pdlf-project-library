@@ -1,3 +1,10 @@
+---
+document: Constraints and Notes — Daily Intentions Tracker
+doc-id: mb5pdlf-0012
+state: Live
+date-created: 2026-06-30
+---
+
 # Constraints and Notes — Daily Intentions Tracker
 
 **Date:** 2026-06-30

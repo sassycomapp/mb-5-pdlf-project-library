@@ -1,3 +1,10 @@
+---
+document: ADR-001 — Cross-Project Anvil Knowledge Reuse
+doc-id: mb5pdlf-0004
+state: Live
+date-created: 2026-06-30
+---
+
 # ADR-001 — Cross-Project Anvil Knowledge Reuse
 
 **Status:** Approved

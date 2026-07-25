@@ -1,3 +1,10 @@
+---
+document: Pre-Project Brief — Daily Intentions Tracker
+doc-id: mb5pdlf-0010
+state: Live
+date-created: 2026-06-30
+---
+
 # Pre-Project Brief — Daily Intentions Tracker
 
 **Date:** 2026-06-30

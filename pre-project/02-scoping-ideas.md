@@ -1,3 +1,10 @@
+---
+document: Scoping Ideas — Daily Intentions Tracker
+doc-id: mb5pdlf-0011
+state: Live
+date-created: 2026-06-30
+---
+
 # Scoping Ideas — Daily Intentions Tracker
 
 **Date:** 2026-06-30

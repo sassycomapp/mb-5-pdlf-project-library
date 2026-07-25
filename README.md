@@ -1,3 +1,10 @@
+---
+document: MB5 PDLF — Project Library
+doc-id: mb5pdlf-0002
+state: Live
+date-created: 2026-07-25T215540+0200
+---
+
 # MB5 PDLF — Project Library
 
 Planning, documentation, and specification repository for the MB5 PDLF test project.

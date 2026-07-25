@@ -1,3 +1,10 @@
+---
+document: ADR-002 — Pure Logic Module Architecture
+doc-id: mb5pdlf-0005
+state: Live
+date-created: 2026-06-30
+---
+
 # ADR-002 — Pure Logic Module Architecture
 
 **Status:** Approved
