@@ -30,7 +30,7 @@ Planning, documentation, and specification repository for the MB5 PDLF test proj
 ## Hard rules
 
 ### 1. anvil.yaml protection (enforced by opencode.json)
-Never write to `anvil.yaml`.
+Never write to `anvil.yaml`. Anvil.yaml is always READ ONLY.
 
 ### 2. Two-repo separation
 - `project-library/` = planning, docs, ADRs, wireframes, pdlf artifacts. Not for Anvil.
