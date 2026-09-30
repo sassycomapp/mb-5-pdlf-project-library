@@ -1,5 +1,5 @@
 ---
-document: Issue tracker: Local markdown
+document: "Issue tracker: Local markdown"
 doc-id: mb5pdlf-0008
 state: Live
 date-created: 2026-07-25T215540+0200
