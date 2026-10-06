@@ -1,6 +1,8 @@
 ---
+title: "triage-labels"
 document: Triage Labels
-doc-id: mb5pdlf-0009
+doc-id: "mb-0b0d0d02"
+updated: "2026-10-06"
 state: Live
 date-created: 2026-07-25T215540+0200
 ---

@@ -1,6 +1,8 @@
 ---
+title: "003-lock-enforcement-strategy"
 document: ADR-003 — Lock Enforcement Strategy
-doc-id: mb5pdlf-0006
+doc-id: "mb-23675388"
+updated: "2026-10-06"
 state: Live
 date-created: 2026-06-30
 ---

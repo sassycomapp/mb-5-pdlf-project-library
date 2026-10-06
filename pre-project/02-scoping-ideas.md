@@ -1,6 +1,8 @@
 ---
+title: "02-scoping-ideas"
 document: Scoping Ideas — Daily Intentions Tracker
-doc-id: mb5pdlf-0011
+doc-id: "mb-55dfd8a2"
+updated: "2026-10-06"
 state: Live
 date-created: 2026-06-30
 ---

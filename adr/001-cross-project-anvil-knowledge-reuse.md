@@ -1,6 +1,8 @@
 ---
+title: "001-cross-project-anvil-knowledge-reuse"
 document: ADR-001 — Cross-Project Anvil Knowledge Reuse
-doc-id: mb5pdlf-0004
+doc-id: "mb-7e2501b7"
+updated: "2026-10-06"
 state: Live
 date-created: 2026-06-30
 ---

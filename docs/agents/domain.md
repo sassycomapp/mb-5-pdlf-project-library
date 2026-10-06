@@ -1,6 +1,8 @@
 ---
+title: "domain"
 document: Domain Docs
-doc-id: mb5pdlf-0007
+doc-id: "mb-48f37360"
+updated: "2026-10-06"
 state: Live
 date-created: 2026-07-25T215540+0200
 ---

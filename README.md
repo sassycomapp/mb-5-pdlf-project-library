@@ -1,6 +1,8 @@
 ---
+title: "README"
 document: MB5 PDLF — Project Library
-doc-id: mb5pdlf-0002
+doc-id: "mb-8fdce0af"
+updated: "2026-10-06"
 state: Live
 date-created: 2026-07-25T215540+0200
 ---

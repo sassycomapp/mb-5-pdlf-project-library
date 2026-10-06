@@ -1,6 +1,8 @@
 ---
+title: "issue-tracker"
 document: "Issue tracker: Local markdown"
-doc-id: mb5pdlf-0008
+doc-id: "mb-8f2ce26f"
+updated: "2026-10-06"
 state: Live
 date-created: 2026-07-25T215540+0200
 ---
