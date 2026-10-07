@@ -2,7 +2,7 @@
 title: "README"
 document: MB5 PDLF — Project Library
 doc-id: "mb-8fdce0af"
-updated: "2026-10-06"
+updated: "2026-10-07"
 state: Live
 date-created: 2026-07-25T215540+0200
 ---
@@ -35,3 +35,7 @@ development strategy. Type `/pdlf` in OpenCode to init or resume.
 **Code repo:** `../mb5pdlf/` (Anvil-connected, GitHub VC)
 **State file:** `~/.gstack/projects/mb5pdlf/pdlf-state.md`
 **Anvil app slug:** `mb5pdlf`
+
+## Status
+
+**Placeholder.** mb5pdlf is the future test project for makePDLF and PDLF. It will be scoped around what those tests need, when they are needed. It is a live project: in scope, a registered GBrain source and GitHub repository, and on the commit-all list, although this library is still empty.
